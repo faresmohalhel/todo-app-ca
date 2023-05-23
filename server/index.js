@@ -25,7 +25,7 @@ initializeApp({
 
 const db = getFirestore();
 
-const userRoute = require("./routes/user-route");
+const userRoute = require("./Routes/User-route");
 
 const docRef = db.collection("users").doc("farse.mohalhel@gmail.com");
 
@@ -256,3 +256,11 @@ function generateToken(userId) {
 app.listen(8000, () => {
   console.log("server starting at port 8000");
 });
+const express = require("express");
+const router = express.Router();
+
+router.get("/", (req, res) => {
+  return res.status(200).json("hello from user route");
+});
+
+module.exports = router;
