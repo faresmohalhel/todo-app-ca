@@ -3,11 +3,11 @@ import { AiFillGithub } from "react-icons/ai";
 const About = () => {
   const team = [
     {
-      avatar: "https://avatars.githubusercontent.com/u/126170946?v=4",
-      name: "Mufid Alnadi",
+      avatar: "https://www.pngitem.com/pimgs/m/30-307416_profile-icon-png-image-free-download-searchpng-employee.png",
+      name: "Fares khalil",
       title: "Full stack developer",
-      linkedin: "http://linkedin.com/in/mufid-alnadi-316792267/",
-      Github: "https://github.com/MufidAlnadi",
+      linkedin: "https://www.linkedin.com/in/fares-khalil-02b1351a8/",
+      Github: "https://github.com/faresmohalhel",
     },
   ];
 
